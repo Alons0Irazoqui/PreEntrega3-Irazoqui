@@ -1,12 +1,12 @@
-* {
+/* * {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
-}
+} */
 
 /* Estilos generales */
-.titulo-dos {
+/* .titulo-dos {
     font-size: 2.5em;
     font-weight: 600;
     margin-bottom: 20px;
@@ -21,45 +21,45 @@
 p .negrita {
     display: block;
     margin-top: 20px;
-}
+} */
 
 
 
 /* Estilos del Heades y Nav */
-.header {
+/* .header {
     box-shadow: 0px 0px 10px #222;
     position: fixed;
     width: 100%;
     z-index: 2;
-}
+} */
 
-.header .navbar img {
+/* .header .navbar img {
     width: 50px;
     margin-right: 15px;
-}
+} */
 
-.titulo {
+/* .titulo {
     display: flex;
     justify-content: center;
     align-items: center;
     font-weight: 600;
-}
+} */
 
-.navbar {
+/* .navbar {
     background-color: #fff;
-}
+} */
 
-.navbar .ul {
+/* .navbar .ul {
     width: 100%;
     display: flex;
     justify-content: right;
-}
+} */
 
-.navbar ul li {
+/* .navbar ul li {
     margin: 0px 10px;
-}
+} */
 
-.navbar .ul li a {
+/* .navbar .ul li a {
     font-weight: 600;
     color: #222;
     transition: all .3s;
@@ -67,50 +67,48 @@ p .negrita {
 }
 
 .navbar .ul li a:hover {
-    font-weight: 600;
-    transform: scale(.9);
-    color: #ffa600;
-}
+    
+} */
 
-.navbar .ul .li-contacto {
+/* .navbar .ul .li-contacto {
     padding: 0px 30px;
     margin-left: 10px;
     background-color: #fff;
     border-radius: 20px;
     border: 2px solid #ffa600;
-}
+} */
 
-.navbar .ul .li-contacto a {
+/* .navbar .ul .li-contacto a {
     color: #ffa600;
     font-weight: 700;
     display: block;
 
-}
+} */
 
-.navbar .ul .li-contacto a:hover {
+/* .navbar .ul .li-contacto a:hover {
     font-weight: 700;
-}
+} */
 
-.navbar .buton {
+/* .navbar .buton {
     border: none;
     box-shadow: none;
     outline: none;
-}
+} */
 
-.navbar .buton span {
+/* .navbar .buton span {
     background-image: url(../img/menu.png);
-}
+} */
 
 
 /* Seccion Main */
-.main {
+/* .main {
     width: 100%;
     padding-top: 75px;
-}
+} */
 
 /* Seccion Hero */
 
-.hero {
+/* .hero {
     width: 100%;
     height: calc(100vh - 75px);
     padding: 0px 20px;
@@ -131,9 +129,9 @@ p .negrita {
     font-size: 2.1em;
     font-weight: 700;
     color: #fff;
-}
+} */
 
-.hero h1 span {
+/* .hero h1 span {
     font-size: 1.2em;
     color: #ffa600;
     font-weight: 700;
@@ -144,9 +142,9 @@ p .negrita {
     text-align: center;
     color: #fff;
     font-weight: 700;
-}
+} */
 
-.boton {
+/* .boton {
     text-decoration: none;
     padding: 10px 20px;
     border: 3px solid #ffa600;
@@ -160,27 +158,27 @@ p .negrita {
     box-shadow: 0px 0px 15px #ffa600;
     text-shadow: 0px 0px 15px #ffa600;
     transform: scale(.9);
-}
+} */
 
 
 /* Seccion Sobre One-Site */
 
-.sobre-oneSite {
+/* .sobre-oneSite {
     padding: 70px 0px;
-}
+} */
 
-.sobre-oneSite .row {
+/* .sobre-oneSite .row {
     display: flex;
     justify-content: center;
     align-items: center;
-}
+} */
 
-.sobre-oneSite .row img {
+/* .sobre-oneSite .row img {
     border-radius: 20px;
     box-shadow: 0px 0px 20px #bbb;
-}
+} */
 
-.sobre-oneSite h2 {
+/* .sobre-oneSite h2 {
     font-size: 2.5em;
     font-weight: 600;
     margin-bottom: 20px;
@@ -191,9 +189,9 @@ p .negrita {
     font-weight: 700;
     color: #ffa600;
     text-decoration: line-through;
-}
+} */
 
-.sobre-oneSite p {
+/* .sobre-oneSite p {
     font-size: 1.2em;
     font-weight: 500;
     margin-bottom: 40px;
@@ -202,46 +200,46 @@ p .negrita {
 .sobre-oneSite p b {
     display: block;
     margin-top: 20px;
-}
+} */
 
 
 /* Seccion de Noticias */
-.noticias {
+/* .noticias {
     padding: 60px 40px;
     background: linear-gradient(#000000a2, #0000009d), url(../img/index/noticias.webp);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-}
+} */
 
-.noticias h2 {
+/* .noticias h2 {
     text-align: center;
     font-size: 2.5em;
     margin-bottom: 40px;
     font-weight: 700;
     color: #fff;
-}
+} */
 
 /* Otra seccion */
 
-.mas-onePiece {
+/* .mas-onePiece {
     padding: 50px 0px;
-}
+} */
 
-.mas-onePiece img {
+/* .mas-onePiece img {
     border-radius: 20px;
     box-shadow: 0px 0px 20px #bbb;
     margin-top: 40px;
-}
+} */
 
-.mas-onePiece h2 span {
+/* .mas-onePiece h2 span {
     font-size: 1.2em;
     color: #ffa600;
-}
+} */
 
 /* Footer  */
 
-.footer {
+/* .footer {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -253,9 +251,9 @@ p .negrita {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-}
+} */
 
-.footer-enlaces ul {
+/* .footer-enlaces ul {
     list-style: none;
     display: flex;
     justify-content: center;
@@ -263,29 +261,29 @@ p .negrita {
     flex-wrap: wrap;
     margin: 0;
     padding: 0;
-}
+} */
 
-.footer-enlaces ul li {
+/* .footer-enlaces ul li {
     margin: 10px 5px;
-}
+} */
 
-.footer-enlaces li a {
+/* .footer-enlaces li a {
     text-decoration: none;
     font-weight: 700;
     font-size: .7rem;
     color: #fff;
-}
+} */
 
-.footer p {
+/* .footer p {
     color: #fff;
     margin-top: 10px;
     font-size: .7rem;
     font-weight: 500;
-}
-
+} */
+/* 
 .footer img {
     width: 60px;
-}
+} */
 
 
 /* Seccion de Hero Arcos */
@@ -482,7 +480,7 @@ p .negrita {
 .main-contacto {
     width: 100%;
     height: 100%;
-    background:linear-gradient(#ffffffad, #ffffffb2), url(../img/Wallpapers/contacto.jpg);
+    background: linear-gradient(#ffffffad, #ffffffb2), url(../img/Wallpapers/contacto.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -598,7 +596,8 @@ p .negrita {
     padding: 10px 0px;
     width: 100%;
 }
-.footer-contacto{
+
+.footer-contacto {
     background: #fff;
     background-size: cover;
     background-position: center;
@@ -607,16 +606,20 @@ p .negrita {
     padding: 10px 0px;
     box-shadow: 0px 0px 10px #666;
 }
-.footer-contacto ul li a{
+
+.footer-contacto ul li a {
     color: #666;
 }
-.footer-contacto p{
+
+.footer-contacto p {
     color: #666;
 }
-.footer-contacto img{
+
+.footer-contacto img {
     margin: 10px 0px;
     width: 40px;
 }
+
 /* Responsive */
 @media screen and (min-width:437px) {
 
@@ -664,16 +667,18 @@ p .negrita {
 
     /* Multimedia */
     .galeria .galeria-container {
-        grid-template-columns: repeat(3,1fr);
+        grid-template-columns: repeat(3, 1fr);
     }
 
-    .uno{
+    .uno {
         grid-column: 1/3;
     }
-    .cinco{
+
+    .cinco {
         grid-column: 2/4;
     }
-    .ocho{
+
+    .ocho {
         grid-column: 1/3;
     }
 }
@@ -696,10 +701,12 @@ p .negrita {
     .ocho {
         grid-column: 2/4;
     }
-    .uno{
-        grid-column:auto;
+
+    .uno {
+        grid-column: auto;
     }
-    .cinco{
-        grid-column:auto;
+
+    .cinco {
+        grid-column: auto;
     }
 }

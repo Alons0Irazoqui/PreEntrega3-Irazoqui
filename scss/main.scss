@@ -1,0 +1,16 @@
+// Reseteando los estilos
+@import "utilities/reset";
+
+// Utilidades de los Estilos
+@import "utilities/_variables";
+@import "utilities/mixins";
+@import "utilities/_estilosGenerales";
+
+// Componentes
+@import "components/header";
+@import "components/hero";
+@import "components/footer";
+
+// Paginas o Secciones del siito
+@import "pages/index";
+
