@@ -13,4 +13,12 @@
 
 // Paginas o Secciones del siito
 @import "pages/index";
+@import "pages/arcos";
+@import "pages/manga";
+@import "pages/multimedia";
+@import "pages/contacto";
+
+//Responsive
+@import "components/responsive-tablet";
+@import "components/responsive-desktop";
 
